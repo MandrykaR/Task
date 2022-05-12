@@ -134,13 +134,14 @@
   // .modal__text
 
   &__text {
-    margin: 20px 0 0 0;
+    margin:  20px 0;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 150%;
     color: #121212;
+
   }
 }
 
@@ -149,6 +150,19 @@
 }
 .hide {
   display: none;
+}
+
+.modal__reset {
+  background: #e4c1ae;
+  border-radius: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  padding: 16px 40px;
+  letter-spacing: 2px;
 }
 
 @import "media";
