@@ -1,0 +1,154 @@
+@import "reset";
+
+.sea {
+  padding: 96px 230px;
+
+  // .sea__container
+
+  &__container {
+  }
+
+  // .sea__row
+
+  &__row {
+    position: relative;
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    & > :not(:last-child) {
+      margin: 0 50px 0 0;
+    }
+  }
+
+  // .sea__image
+
+  &__image {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  // .sea__content
+
+  &__content {
+    flex: 0 0 380px;
+    h2 {
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 120%;
+      color: #121212;
+    }
+  }
+
+  // .sea__text
+
+  &__text {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #121212;
+    margin: 24px 0 32px 0;
+  }
+
+  // .sea__btn
+
+  &__btn {
+    width: 128px;
+    height: 48px;
+  }
+}
+
+.btn {
+  background: #e4c1ae;
+  border-radius: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  padding: 16px 40px;
+  letter-spacing: 2px;
+  &:hover {
+    background-color: #e15132;
+    transition: background-color 0.5s linear;
+    border-radius: 32px 5px 32px;
+    transition: border-radius 0.5s linear;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  // .modal__dialog
+
+  &__dialog {
+    max-width: 920px;
+    margin: 100px auto;
+  }
+
+  // .modal__content
+
+  &__content {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    max-height: 80vh;
+    overflow-y: auto;
+    display: flex;
+  }
+
+  // .modal__close
+
+  &__close {
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    font-size: 30px;
+    color: #000;
+    opacity: 0.5;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  // .modal__title
+
+  &__title {
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+
+  // .modal__text
+
+  &__text {
+    margin: 20px 0 0 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #121212;
+  }
+}
+
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+@import "media";

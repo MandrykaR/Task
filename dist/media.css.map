@@ -1,0 +1,1 @@
+{"version":3,"sources":["media.scss","media.css"],"names":[],"mappings":"AAAA,0BACE,KACE,iBCCF,CACF","file":"media.css","sourcesContent":["@media (max-width: 1399px) {\r\n  .sea {\r\n    padding: 96px 30px;\r\n  }\r\n}\r\n","@media (max-width: 1399px) {\n  .sea {\n    padding: 96px 30px;\n  }\n}"]}
