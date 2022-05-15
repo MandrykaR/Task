@@ -1,2 +1,2 @@
-@media (max-width:1399px){.sea{padding:96px 30px}}
+@media (max-width:1399px){.sea__content{flex:0 0 380px;margin:0 0 0 35px}}@media (max-width:928px){.sea{font-size:14px}.sea__row{flex-wrap:wrap-reverse;flex:1 1 100%}.sea__image{flex:1 1 505px}.sea__image img{max-width:100%}.sea__content{flex:1 1 100%;margin:0 0 30px;padding:0 15px}.sea__content h2{font-size:32px}.sea__text{font-size:22px}}@media (max-width:677px){.container{max-width:1440px;padding:30px 0 0;margin:0 auto}.btn{background:#d0b09f}.sea__text{font-size:18px}}@media (max-width:563px){.sea__text{font-size:14px}}
 /*# sourceMappingURL=media.css.map */

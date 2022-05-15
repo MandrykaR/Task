@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
       modal = document.querySelector('.modal'),
       modalClose = document.querySelector('[data-close]'),
       modalText = document.querySelector('.modal__text'),
-      modalReset = document.querySelector('.modal__reset');
+      modalReset = document.querySelector('.reset__btn');
 
    let counter = localStorage.getItem('counter') ? parseInt(localStorage.getItem('counter')) : 0;
 

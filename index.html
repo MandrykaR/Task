@@ -14,7 +14,7 @@
   <body>
     <div class="wrapper">
       <div class="sea">
-        <div class="sea__container _container">
+        <div class="container">
           <div class="sea__row">
             <div class="sea__image">
               <img src="/images/img-hero.png" alt="sea" />
@@ -34,16 +34,21 @@
             </div>
           </div>
         </div>
+
         <div class="modal">
           <div class="modal__dialog">
             <div class="modal__content">
               <div class="modal__body">
-                <div data-close class="modal__close">&times;</div>
+                <div data-close class="modal__close">
+                  <img src="/images/close.svg" alt="" />
+                </div>
                 <div class="modal__title">Alert!</div>
                 <div class="modal__text">
                   You have clicked <b>X times</b> to related button.
                 </div>
-                <a href="#" class="modal__reset hide">RESET</a>
+                <div class="modal__reset reset">
+                  <a href="#" class="reset__btn hide">RESET</a>
+                </div>
               </div>
             </div>
           </div>
@@ -52,5 +57,6 @@
     </div>
 
     <script src="/dist/all.js"></script>
+    <script type="text/javascript"></script>
   </body>
 </html>
