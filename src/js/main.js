@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.style.overflow = 'hidden';
       counter++;
       localStorage.setItem('counter', counter);
-      console.log(localStorage.getItem('counter'));
       modalText.innerHTML = `You have clicked <b>${counter} times</b> to related button.`;
       if (counter >= 5) {
          modalReset.classList.remove('hide');
